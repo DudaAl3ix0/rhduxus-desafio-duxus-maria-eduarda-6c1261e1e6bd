@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Sport Bet</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="box">
+    <div class="imagem-cadastro">
+        <img src="img/img-form.png" class="imagem-principal" alt="Imagem E-Sport Bet">
+    </div>
+
+    <div class="form-box">
+        <div>
+            <h1 class="titulo-cadastro">Cadastrar Integrante</h1>
+        </div>
+        <form method="post">
+            <div class="form-input">
+                <label id="franquia">Franquia:</label>
+                <input type="text" class="franquia" id="form-franquia" placeholder="Digite a franquia" required>
+            </div>
+            <div class="form-input">
+                <label for="nome">Nome:</label>
+                <input type="text" class="nome" id="nome" placeholder="Digite o nome " required="required">
+            </div>
+            <div class="form-input">
+                <label for="funcao">Função:</label>
+                <input type="text" class="funcao" id="funcao" placeholder="Digite a função " required>
+            </div>
+            <div class="form-input">
+                <button type="submit">Cadastrar</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+</body>
+
+
+<script src="./script.js"></script>
+</html>
